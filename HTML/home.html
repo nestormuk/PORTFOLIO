@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nestor's Porfolio</title>
+    <script src="https://kit.fontawesome.com/d41ddb535f.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+        
+        body{
+            font-family: 'Poppins', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            background-color: #FBEAEB;
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            background-color: #2F3C7E;
+            color: #FBEAEB;
+        }
+        a{
+            margin: 10px;
+            color: black;
+            text-decoration: none;
+        }
+        .about_me_container{
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .about_me_paragraph{
+            text-align: center;
+            font-size: 20px;
+            line-height: 1.5;
+            padding: 20px;
+        }
+             
+        img{
+            width: 100%;
+            height: auto;
+           border-radius: 15px;
+        }
+        .container_myskills{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .myskills{
+            background-color: #2F3C7E;
+            margin: 10px;
+            color: #FBEAEB;
+            font-size: 20px;
+            
+            width: 200px;
+            border-radius: 15px;
+            padding: 10px;
+        }
+        .about_myskill_paragraph{
+            margin: 20px ;
+            text-align: center;
+            line-height: 1.5;
+            font-size: 20px;
+        }
+        .project_rwandaeduc_container  {
+            display: flex;
+            text-align: center;
+            line-height: 1.5;
+            font-size: 20px;
+        }
+        .store_container{
+            display: flex;
+            padding: 20px;
+            text-align: center;
+            line-height: 1.5;
+            font-size: 20px;
+        }
+        .rwanda_education{
+            width: 70%;
+            height: auto;
+            margin: 20px;
+        }
+        .resume_contact_container{
+            display: flex;
+            justify-content: space-between;
+            margin: 40px;
+        }
+        .contact{
+            width: 50%;
+            text-align: center;
+            line-height: 1.5;
+            font-size: 20px;
+        }
+        .resume{
+            width: 50%;
+            text-align: center;
+            line-height: 1.5;
+            font-size: 20px;
+        }
+        footer{
+            background-color: #2F3C7E;
+            height: 40px;
+            text-align: center;
+            width: 100%;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="myname">
+           <h2> Musanzivwa Nestor</h2>
+        </div>
+
+        <div class="container_button">
+            <ul>
+                <a href="#about">About Me</a>
+                <a href="#skills">skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#resume">Resume</a>
+                <a href="#contact">Contact</a>
+            </ul>
+            
+        </div>
+        
+    </header>
+    <section id="about">
+        <div class="about_me_container">
+            <div class="about_me">
+                <p class="about_me_paragraph">
+                   <b> Hello! I'm Nestor...</b><br>
+                    I'm a budding web developer with proficiency in HTML and CSS. 
+                    Committed to continuous improvement, I dedicate time each day 
+                    to learn and refine my skills. 
+                    Passionate about streamlining processes, 
+                    my journey in web development is driven by a desire to contribute
+                    to efficient digital solutions. 
+                    While I haven't achieved a notable milestone yet, 
+                    I'm eager to apply my skills to create visually appealing and user-friendly websites. Excited about the possibilities ahead, I look forward to building a portfolio that showcases my commitment to excellence in web development.
+                </p>
+            </div>
+            <div class="about_me item">
+                <img src="../Assets/Eng_Nestor.jpg" alt="Musanzivwa_Nestor">
+            </div>
+        </div>
+
+    </section>
+    <section id="skills">
+        <h3><center> My skills</center></h3>
+        <p  class="about_myskill_paragraph">Embarking on the programming journey, my skills blend practical expertise with a passion for efficiency. I aim to optimize processes and navigate the intricacies of web development. Stay tuned for a closer look at the languages and proficiencies defining my capabilities in this dynamic field.</p>
+        <div class="container_myskills">
+            <div class="myskills">
+                <p>
+                    <b>Technical Proficiency </b><br><br>
+                    I am skilled in C programming,Java Script, Java SQL and PHP, using them for various projects.
+                </p>
+            </div>
+        
+            <div class="myskills">
+               <p>
+                <b>Web Development:</b> <br><br>
+                I use HTML and CSS to create things on the web.
+               </p>
+            </div>
+            <div class="myskills">
+                <p>
+                   <b> Learning and Adaptability: </b><br><br>
+                    I keep learning about web development to improve my skills.
+
+                </p>
+            </div>
+            <div class="myskills">
+                <p>
+                    <b>Process Optimization:</b> <br><br>
+                    My goal is to acquire skills that enable me to streamline processes more effectively.
+                </p>
+            </div>
+            <div class="myskills">
+                <b>Goal Setting: </b> <br> <br>
+                I aspire to become a master in web development, honing my skills to excel in this field.
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="projects">
+        <h3> <center>Project I worked On...</center></h3>
+            <div class="project_rwandaeduc_container">
+                <img class="rwanda_education" src="../Assets/Rwanda_educ.png" alt="Rwanda education sector">
+                <p>
+                   <b> Rwanda Education: </b><br>
+
+                    Developed a user-friendly platform aimed at simplifying the discovery of educational institutions and fostering direct communication. The system is designed to enhance accessibility and connectivity within the education sector.
+                </p>
+            </div>
+
+            <div class="store_container">
+                <p>
+                    <b>  Store Management System: </b><br>
+  
+                      Created an intuitive platform to streamline the management of retail stores and inventories. The user-friendly design facilitates efficient and organized store operations, contributing to effective inventory management.
+                  </p>
+                <img class="rwanda_education" src="../Assets/Store_Management_System.png" alt="">
+               
+            </div>
+    </section>
+
+    <section class="resume_contact_container">
+        <section id="resume">
+            <h4><b><center>Download My CV</center></b></h4>
+            <a href="../Assets/Musanzivwa.Nestor.Developper.pdf"><i class="fa-solid fa-file fa-9xl" style="color: #2F3C7E; font-size: 300px;"></i>
+            </a>
+
+        </section>
+
+        <section id="contact" class="contact">
+            <h4> <b> <center>Reach Out to Me!</center></b></h4>
+            <p>
+                Feel free to reach out to me for any inquiries
+                 or collaboration opportunities. You can contact
+                  me via email at <b> ntor2004@gmail.com</b> or reach me by phone at <b>+250 791 091 816</b>. 
+                I'm excited to connect and discuss potential projects 
+                or answer any questions you may have. 
+                Looking forward to hearing from you!
+            </p>
+            <p>
+                <h4>Follow Me</h4>
+               <a href="https://www.instagram.com/nestor_m4m/"><i class="fa-brands fa-instagram fa-2xl" style="color: #2F3C7E;"></i></a>
+               <a href=" https://www.linkedin.com/in/nestor-musanzivwa-mukwinyi-a1356318a/"><i class="fa-brands fa-linkedin fa-2xl" style="color: #2F3C7E;"></i></a> 
+               <a href="https://twitter.com/Nestor_Mukwinyi"><i class="fa-brands fa-x-twitter fa-2xl" style="color: #2F3C7E;"></i></a>
+            </p>
+
+        </section>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 @The_General. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
